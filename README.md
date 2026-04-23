@@ -12,9 +12,9 @@
 
 | Field        | Details                          |
 |--------------|----------------------------------|
-| **Name**     | Your Name                        |
-| **Domain**   | Python Programming                |
-| **Batch**    | Your Batch (e.g., Sep – Oct 2024)|
+| **Name**     | Yatharth Shrirame                |
+| **Domain**   | Python Programming               |
+| **Batch**    | April - May 2026                 |
 | **Org**      | Oasis Infobyte                   |
 
 > Replace the fields above with your actual details.
