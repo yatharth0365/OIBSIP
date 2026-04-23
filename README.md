@@ -14,10 +14,8 @@
 |--------------|----------------------------------|
 | **Name**     | Yatharth Shrirame                |
 | **Domain**   | Python Programming               |
-| **Batch**    | April - May 2026                 |
+| **Batch**    | April – May 2026                 |
 | **Org**      | Oasis Infobyte                   |
-
-> Replace the fields above with your actual details.
 
 ---
 
@@ -78,7 +76,7 @@ OIBSIP/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/OIBSIP.git
+   git clone https://github.com/yatharth0365/OIBSIP.git
    cd OIBSIP
    ```
 
@@ -112,7 +110,7 @@ OIBSIP/
 ## 📬 Connect with Me
 
 <p>
-  <a href="www.linkedin.com/in/yatharth-shrirame">
+  <a href="https://www.linkedin.com/in/yatharth-shrirame-">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
