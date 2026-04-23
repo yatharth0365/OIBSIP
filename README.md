@@ -109,19 +109,11 @@ OIBSIP/
 
 ## 📬 Connect with Me
 
-<p>
-  <a href="https://www.linkedin.com/in/yatharth-shrirame">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="mailto:yatharth.shrirame@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/yatharth0365">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" />
-  </a>
-</p>
+| Platform | Link |
+|----------|------|
+| **LinkedIn** | [yatharth-shrirame](https://www.linkedin.com/in/yatharth-shrirame) |
+| **Email** | [yatharth.shrirame@gmail.com](mailto:yatharth.shrirame@gmail.com) |
+| **GitHub** | [yatharth0365](https://github.com/yatharth0365) |
 
 ---
 
