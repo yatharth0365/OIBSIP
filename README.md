@@ -112,15 +112,15 @@ OIBSIP/
 ## 📬 Connect with Me
 
 <p>
-  <a href="https://linkedin.com/in/your-profile">
+  <a href="www.linkedin.com/in/yatharth-shrirame">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:yatharth.shrirame@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://github.com/your-username">
+  <a href="https://github.com/yatharth0365">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white" />
   </a>
 </p>
