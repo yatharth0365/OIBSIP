@@ -110,7 +110,7 @@ OIBSIP/
 ## 📬 Connect with Me
 
 <p>
-  <a href="https://www.linkedin.com/in/yatharth-shrirame-">
+  <a href="https://www.linkedin.com/in/yatharth-shrirame">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
