@@ -32,17 +32,16 @@
 ```
 OIBSIP/
 │
-├── Task_1/                  # Task 1 — Voice Assistant
+├── Task 1/                  # Task 1 — Voice Assistant
 │   ├── app.py
-│   ├── static/
-│   │   └── index.html
+│   ├── index.html
 │   └── README.md
 │
-├── Task_2/                  # Task 2 — (Title)
-│   ├── solution.py
+├── Task 2/                  # Task 2 — BMI Calculator GUI
+│   ├── bmi_calculator_gui.py
 │   └── README.md
 │
-├── Task_3/                  # Task 3 — (Title)
+├── Task 3/                  # Task 3 — (Title)
 │   ├── solution.py
 │   └── README.md
 │
@@ -58,7 +57,7 @@ OIBSIP/
 | #   | Task Title               | Status         | Tech Used                        |
 |-----|--------------------------|----------------|----------------------------------|
 | 01  | Voice Assistant          | ✅ Completed   | Python, Flask, OpenAI Whisper    |
-| 02  | *(Task Name)*            | 🔄 In Progress | Python                           |
+| 02  | BMI Calculator GUI       | ✅ Completed   | Python, Tkinter                  |
 | 03  | *(Task Name)*            | ⏳ Pending     | Python                           |
 
 ---
