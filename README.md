@@ -62,32 +62,10 @@ OIBSIP/
 
 ---
 
-## 🔐 Task 3 — Advanced Password Generator
-
-Task 3 is a desktop password generator built with Python and Tkinter. It allows users to generate secure passwords with customizable length, character types, complexity profiles, exclusion rules, and clipboard support.
-
-Key features include:
-
-- secure random password generation using Python's `secrets` module
-- lowercase, uppercase, number, and symbol options
-- `Balanced`, `Strong`, and `Maximum` complexity profiles
-- optional repeated-character prevention
-- ambiguous-character and custom-character exclusion
-- manual and automatic clipboard copy support
-
-Run Task 3 with:
-
-```bash
-cd "Task 3"
-python main.py
-```
-
----
-
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3.x
-- **Libraries / Tools:** Flask, OpenAI Whisper, PyTorch, NumPy, SoundFile, Flask-CORS, Tkinter, secrets
+- **Libraries / Tools:** Flask, OpenAI Whisper, PyTorch, NumPy, SoundFile, Flask-CORS
 - **Frontend:** HTML, CSS, JavaScript (for applicable tasks)
 - **Version Control:** Git & GitHub
 
@@ -103,19 +81,20 @@ python main.py
 
 2. **Navigate to the task folder**
    ```bash
-   cd "Task 3"
+   cd Task_1
    ```
 
-3. **Follow the task README**
-
-   Each task folder includes its own `README.md` with the correct file name and run instructions.
-
-4. **Run the task script**
+3. **Install dependencies**
    ```bash
-   python main.py
+   pip install -r requirements.txt
    ```
 
-> The exact script name may differ by task. Check the local `README.md` inside each task folder before running it.
+4. **Run the script**
+   ```bash
+   python app.py
+   ```
+
+> Each task folder may have its own specific setup instructions in its local `README.md`.
 
 ---
 
