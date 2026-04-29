@@ -1,10 +1,11 @@
-# OIBSIP - Task 1: Voice Assistant
-A browser-based voice assistant built with Flask and the Web Speech API.
-It listens to voice commands, sends them to a Python backend, and speaks the response.
+# OIBSIP - Task 1: Python Voice Assistant
+A desktop voice assistant built with Python and a `tkinter` GUI.
+It listens through your microphone, understands voice commands, speaks replies aloud, and can open web searches in your browser.
 
 ## Features
-- Voice recognition using browser `SpeechRecognition` (`webkitSpeechRecognition` fallback)
-- Spoken responses using browser `SpeechSynthesis`
+- Python GUI using `tkinter`
+- Voice command input through the microphone
+- Spoken assistant replies
 - Handles common commands:
   - Greetings
   - Current time
@@ -13,52 +14,40 @@ It listens to voice commands, sends them to a Python backend, and speaks the res
   - Help/identity prompts
 - Web search support:
   - Commands like `search for ...`, `look up ...`, `find ...`, `google ...`
-  - Fallback search for unknown commands
+  - Unknown commands prepare a search you can open from the GUI
 
 ## Tech Stack
 - Python 3
-- Flask
-- Flask-CORS
-- HTML, CSS, JavaScript
+- `tkinter`
+- `SpeechRecognition`
+- `PyAudio`
+- `pyttsx3`
+- `webbrowser`
 
 ## Project Files
-- `app.py` - Flask backend and command processing logic
-- `index.html` - Frontend UI, speech recognition, speech output
+- `app.py` - Python voice assistant GUI and command processing logic
 - `.gitignore` - Ignore IDE/cache artifacts
 
 ## Setup and Run
 1. Install dependencies:
    ```powershell
-   py -m pip install flask flask-cors
+   py -m pip install -r requirements.txt
    ```
-2. Start the server:
+2. Start the desktop app:
    ```powershell
    py app.py
    ```
-3. Open in browser:
-   - `http://127.0.0.1:5000`
-4. Allow microphone access when prompted.
+3. Click `Listen` and speak a command.
 
-## Example Voice Commands
+## Example Commands
 - `Hello`
 - `What time is it?`
 - `What's today's date?`
 - `Search for machine learning`
 - `Tell me a joke`
 
-## API Endpoint
-### `POST /command`
-Request body:
-```json
-{ "text": "search for python tutorials" }
-```
-Response includes:
-- `transcript`
-- `reply`
-- optional `search_url`
-- optional `query`
-
 ## Notes
-- Best experience on Chrome/Edge (Web Speech API support).
 - If `python` is unavailable on Windows, use `py`.
-- Default server port is `5000`.
+- Voice recognition uses Google's speech recognition service through the `SpeechRecognition` package, so internet access may be required.
+- `PyAudio` is required for microphone access.
+- Searches open with your system default browser.
