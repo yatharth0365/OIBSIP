@@ -34,7 +34,7 @@ OIBSIP/
 │
 ├── Task 1/                  # Task 1 — Voice Assistant
 │   ├── app.py
-│   ├── index.html
+│   ├── requirements.txt
 │   └── README.md
 │
 ├── Task 2/                  # Task 2 — BMI Calculator GUI
