@@ -41,8 +41,8 @@ OIBSIP/
 │   ├── bmi_calculator_gui.py
 │   └── README.md
 │
-├── Task 3/                  # Task 3 — (Title)
-│   ├── solution.py
+├── Task 3/                  # Task 3 — Advanced Password Generator
+│   ├── main.py
 │   └── README.md
 │
 └── README.md                # ← You are here
@@ -54,18 +54,40 @@ OIBSIP/
 
 ## ✅ Tasks Completed
 
-| #   | Task Title               | Status         | Tech Used                        |
-|-----|--------------------------|----------------|----------------------------------|
-| 01  | Voice Assistant          | ✅ Completed   | Python, Flask, OpenAI Whisper    |
-| 02  | BMI Calculator GUI       | ✅ Completed   | Python, Tkinter                  |
-| 03  | *(Task Name)*            | ⏳ Pending     | Python                           |
+| #   | Task Title                  | Status         | Tech Used                        |
+|-----|-----------------------------|----------------|----------------------------------|
+| 01  | Voice Assistant             | ✅ Completed   | Python, Flask, OpenAI Whisper    |
+| 02  | BMI Calculator GUI          | ✅ Completed   | Python, Tkinter                  |
+| 03  | Advanced Password Generator | ✅ Completed   | Python, Tkinter, secrets         |
+
+---
+
+## 🔐 Task 3 — Advanced Password Generator
+
+Task 3 is a desktop password generator built with Python and Tkinter. It allows users to generate secure passwords with customizable length, character types, complexity profiles, exclusion rules, and clipboard support.
+
+Key features include:
+
+- secure random password generation using Python's `secrets` module
+- lowercase, uppercase, number, and symbol options
+- `Balanced`, `Strong`, and `Maximum` complexity profiles
+- optional repeated-character prevention
+- ambiguous-character and custom-character exclusion
+- manual and automatic clipboard copy support
+
+Run Task 3 with:
+
+```bash
+cd "Task 3"
+python main.py
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3.x
-- **Libraries / Tools:** Flask, OpenAI Whisper, PyTorch, NumPy, SoundFile, Flask-CORS
+- **Libraries / Tools:** Flask, OpenAI Whisper, PyTorch, NumPy, SoundFile, Flask-CORS, Tkinter, secrets
 - **Frontend:** HTML, CSS, JavaScript (for applicable tasks)
 - **Version Control:** Git & GitHub
 
@@ -81,20 +103,19 @@ OIBSIP/
 
 2. **Navigate to the task folder**
    ```bash
-   cd Task_1
+   cd "Task 3"
    ```
 
-3. **Install dependencies**
+3. **Follow the task README**
+
+   Each task folder includes its own `README.md` with the correct file name and run instructions.
+
+4. **Run the task script**
    ```bash
-   pip install -r requirements.txt
+   python main.py
    ```
 
-4. **Run the script**
-   ```bash
-   python app.py
-   ```
-
-> Each task folder may have its own specific setup instructions in its local `README.md`.
+> The exact script name may differ by task. Check the local `README.md` inside each task folder before running it.
 
 ---
 
